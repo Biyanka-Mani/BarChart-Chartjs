@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Charts</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+      
+          <div class="col-12">
+            <%= render 'layouts/navigation' %>
+          </div>
+          <div class="col-12">
+            <div class="py-3">
+              
+              <%= yield %>
+            </div>
+          </div>
+          
+        
+      </div>
+  </div>
+  </body>
+</html>

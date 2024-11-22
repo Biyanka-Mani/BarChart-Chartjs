@@ -1,4 +1,5 @@
 📊 BarChart-Chartjs
+
 This repository provides a simple implementation of how to use Chart.js with Rails 7 and import maps. It showcases how you can create dynamic bar charts using JavaScript and Rails without relying on CDN links.
 
 📋 Features
@@ -31,4 +32,5 @@ data-controller="barchart"
 This is main part in working the stimulus make sure you name properly your js file.
 
 📜 Conclusion
+
 This project is a starting point for anyone looking to integrate Chart.js with Rails 7 using import maps

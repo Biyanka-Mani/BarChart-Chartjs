@@ -66,8 +66,9 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "chart-js-rails", "~> 0.1.7"
-gem "jquery-rails", "~> 4.6"
+# gem "chart-js-rails", "~> 0.1.7"
+# gem "jquery-rails", "~> 4.6"
+# # gem 'chartkick'
 
 
 ## bootstarp
@@ -83,3 +84,4 @@ gem "devise-bootstrap5"
 
 gem "font-awesome-rails"
 gem 'will_paginate', '~> 4.0'
+gem 'rails_db'

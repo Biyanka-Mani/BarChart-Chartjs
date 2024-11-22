@@ -5,9 +5,7 @@ This repository provides a simple implementation of how to use Chart.js with Rai
 🛠️ Uses import maps instead of a CDN for integrating Chart.js.
 📊 Dynamically generates bar charts in a Rails 7 application.
 
-📖 Getting Started
-Prerequisites
-Before starting, ensure you have:
+📖 Getting Started Prerequisites
 
 Ruby (3.x recommended)
 Rails 7.x installed
